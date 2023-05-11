@@ -1,0 +1,110 @@
+/* CSS for index.html */
+body {
+     background-color: #f2f2f2;
+   }
+   
+   header {
+     background-color: #333;
+     color: #fff;
+     height: 40px;
+   }
+   
+   nav {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100%;
+   }
+   
+   nav a {
+     color: #fff;
+     text-decoration: none;
+     padding: 10px;
+     font-size: 20px;
+   }
+   
+   /* CSS for about.html */
+   .about {
+     padding: 50px;
+   }
+   
+   .about h2 {
+     margin-bottom: 20px;
+   }
+   
+   .about p {
+     line-height: 1.5;
+   }
+   
+   /* CSS for portfolio.html */
+   .projects {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     padding: 50px;
+   }
+   
+   .project {
+     background-color: #fff;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     width: 300px;
+     margin-bottom: 20px;
+     padding: 20px;
+   }
+   
+   .project h3 {
+     margin-top: 0;
+   }
+   
+   /* CSS for contact.html */
+   .contact {
+     padding: 50px;
+   }
+   
+   .contact h2 {
+     margin-bottom: 20px;
+   }
+   
+   .contact p {
+     line-height: 1.5;
+   }
+   
+   .contact input,
+   .contact textarea {
+     display: block;
+     margin-bottom: 10px;
+     padding: 5px;
+     width: 100%;
+   }
+   
+   .contact input[type="submit"] {
+     background-color: #333;
+     color: #fff;
+     border: none;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+   }
+   
+   .contact input[type="submit"]:hover {
+     background-color: #555;
+   }
+   
+   .footer {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   
+   .footer img {
+     height: 70px; /* adjust this value as needed */
+     width: 70px;
+     margin: 0 10px; /* adjust this value as needed */
+   }
+   
+
